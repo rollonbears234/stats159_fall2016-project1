@@ -1,3 +1,4 @@
+
 ## Conclusion
 ---
 
@@ -9,4 +10,4 @@
 4. This project helped me solidify my understanding of the tools presented in the project as well as emphasize their importance in a workflow
 
 
-![markdownLogo](../../images/stat159-logo.png)
+![markdownLogo](https://raw.githubusercontent.com/rollonbears234/stats159_fall2016-project1/master/images/stat159-logo.png)

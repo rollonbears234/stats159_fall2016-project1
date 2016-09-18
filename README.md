@@ -1,7 +1,7 @@
 # stats159_fall2016-project1
 Stat 159, Fall 2016, Professor Sanchez, project 1
 
-![projLogo](/images/stat159-logo.png)
+![projLogo](https://raw.githubusercontent.com/rollonbears234/stats159_fall2016-project1/master/images/stat159-logo.png)
 
 **Author**: Bryan Alcorn
 
@@ -34,7 +34,7 @@ stat159-fall2016-project1/
 3. Abstract contains the questions I answered
 4. Discussion is the answers to the questions
 5. Conclusion wraps up my takeaways from the project
-6. Paper is the final paper that resulted from pandocs, this was done in the make file as well. 
+6. Paper is the final paper that resulted from pandocs, this was done in the make file as well.
 
 
 ##### License

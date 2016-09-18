@@ -6,13 +6,13 @@
 Makefiles allow for easy compilation of code projects. In our case, they allow they allow other people to easily reproduce the same setup environment for a particular project.
 
 #### Explain the role that a Makefile plays in the RR workflow
-![markdownLogo](../../images/markdown-logo.png)
+![markdownLogo](https://raw.githubusercontent.com/rollonbears234/stats159_fall2016-project1/master/images/markdown-logo.png)
 
  This is especially important in a class about reproducibility. When someone gets code, it is useless unless that particular environment is setup. There might be relative file paths that don't work unless a particular file structure is created first or a script is run. The make file runs these scripts and sets up the directories.
 
 #### Explain what is Git, and its role in RR
 
-![gitLogo](../../images/git-logo.png)
+![gitLogo](https://raw.githubusercontent.com/rollonbears234/stats159_fall2016-project1/master/images/git-logo.png)
 
 Git is a version control system, much like subversion. It helps keep track of changes in code. It does so by keeping track of only the changes, this way we avoid having to duplicate files if there are changes, which has a lot of overhead due to redundancy. Git tracks the changes and assigns an ID to every commit.
 
@@ -22,7 +22,7 @@ Also, branches are helpful. When coding, two different tracks can be taken to se
 
 #### Explain what is GitHub, and its role in this project.
 
-![markdownLogo](../../images/github-logo.png)
+![githubLogo](https://raw.githubusercontent.com/rollonbears234/stats159_fall2016-project1/master/images/github-logo.png)
 
 Github is a website useful for hosting git. They also make a GUI for interacting with the git commands. Github can be used to store repositories that use git and allow other people to interact with code repositories.
 
@@ -31,7 +31,9 @@ Some common commands for interacting with Github are `push` and `pull`
 
 
 #### Explain what is pandoc and comment on its usefulness (or advantages).
-![markdownLogo](../../images/pandoc-logo.png)
+![pandocLogo](https://raw.githubusercontent.com/rollonbears234/stats159_fall2016-project1/master/images/pandoc-logo.png)
+
+Pandoc is a tool for markup languages. It helps convert from one format to another. In the case of this class, we have converted from markdown to html. This is useful because internet browsers support mainly html and being able to view markdown in html is useful because markdown is easier to write, but html may be more practice. Pandoc allows users to convert from the two so that the user gets the most utility out of each language. 
 
 
 #### Explain what is markdown
