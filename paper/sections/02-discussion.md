@@ -31,6 +31,7 @@ Some common commands for interacting with Github are `push` and `pull`
 
 
 #### Explain what is pandoc and comment on its usefulness (or advantages).
+![markdownLogo](../../images/pandoc-logo.png)
 
 
 #### Explain what is markdown

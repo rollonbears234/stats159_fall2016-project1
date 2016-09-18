@@ -1,0 +1,97 @@
+<h1 id="abstract-for-project-1-for-stats-159">Abstract for Project 1 for Stats 159</h1>
+<p>The first project should demonstrate my understanding of the materials in class so far, specifically I will be <em>writing about writing</em>.</p>
+<p>We have learned to use the following tools so far: 1. bash 2. markdown 3. pandoc 4. git 5. github 6. Make 7. a text editor</p>
+<h4 id="instructions-for-the-assignment">Instructions for the assignment</h4>
+<blockquote>
+<p>If it helps, pretend that you have to write a blog post about using the tools we’ve seen so far, explaining the role they play. Imagine that the target audience are other undergrad students in statistics (or similar fields). Keep in mind that the paper you write may become a tutorial: a document that you may read later in the future in order to remember how you did something (e.g. write a Makefile).</p>
+</blockquote>
+<h2 id="questions-to-be-answered">Questions to be Answered</h2>
+<ul>
+<li>Explain what is a Makefile</li>
+<li>Explain the role that a Makefile plays in the RR workflow</li>
+<li>Explain what is Git, and its role in RR</li>
+<li>Explain what is GitHub, and its role in this project.</li>
+<li>Explain what is pandoc and comment on its usefulness (or advantages).</li>
+<li>Explain what is markdown</li>
+<li>Write a narrative about how you worked our this project</li>
+<li>What resources you used to get the job done.</li>
+<li>What were the “easy” parts?</li>
+<li>What were the challenging parts?</li>
+<li>What things you were stuck with?</li>
+<li>What was the most time consuming part?</li>
+<li>Did you work with and/or get help from someone else?</li>
+<li>How much time did it take?</li>
+</ul>
+<h4 id="specifics-of-the-project">Specifics of the project</h4>
+<ul>
+<li>README.md is a file (written in markdown) describing the project’s structure, author’s name, and creative commons license of your choice. See https://creativecommons.org/choose/ for more info about these licenses.</li>
+<li>The content of the README.md file should allow any “competent” user to follow the instructions and be able to reproduce your paper.</li>
+<li>The file Makefile should contain two targets: the html paper paper.html, and a clean phony target that removes the html file.</li>
+<li>The way you should write your paper is to break down its structure in four (or more) sections, each section written in a separate .md file (do NOT use .Rmd files). These markdown files are essentially the ONLY files that you should be editing (not the paper.md file): – 00-abstract.md – 01-introduction.md – 02-discussion.md – 03-conclusions.md</li>
+<li>The file paper.md should be assembled from those .md files in sections/. This file must NOT be inside sections/.</li>
+<li>The file paper.html is the output from running pandoc on paper.md, via the Makefile.</li>
+<li>The content of the paper should not exceed 20,000 characters. This is approximately six pages, single spaced in 12 point font, when pasted in a typical word processor (e.g. MS Word).</li>
+<li>The .png image files are the files that come in the images folder of this project’s github repo. You will have to include those images somewhere in your .md files. Miscelanea</li>
+<li>Practice writing good commit messages</li>
+<li>Commit soon and often (commits are cheap!) • Don’t be afraid of undoing things</li>
+</ul>
+<h2 id="discussion-of-answers">## Discussion of Answers</h2>
+<h4 id="explain-what-is-a-makefile">Explain what is a Makefile</h4>
+<p>Makefiles allow for easy compilation of code projects. In our case, they allow they allow other people to easily reproduce the same setup environment for a particular project.</p>
+<h4 id="explain-the-role-that-a-makefile-plays-in-the-rr-workflow">Explain the role that a Makefile plays in the RR workflow</h4>
+<div class="figure">
+<img src="../../images/markdown-logo.png" alt="markdownLogo" />
+<p class="caption">markdownLogo</p>
+</div>
+<p>This is especially important in a class about reproducibility. When someone gets code, it is useless unless that particular environment is setup. There might be relative file paths that don't work unless a particular file structure is created first or a script is run. The make file runs these scripts and sets up the directories.</p>
+<h4 id="explain-what-is-git-and-its-role-in-rr">Explain what is Git, and its role in RR</h4>
+<div class="figure">
+<img src="../../images/git-logo.png" alt="gitLogo" />
+<p class="caption">gitLogo</p>
+</div>
+<p>Git is a version control system, much like subversion. It helps keep track of changes in code. It does so by keeping track of only the changes, this way we avoid having to duplicate files if there are changes, which has a lot of overhead due to redundancy. Git tracks the changes and assigns an ID to every commit.</p>
+<p>Some useful properties of git are the ability to backtrack to older versions (checkout).</p>
+<p>Also, branches are helpful. When coding, two different tracks can be taken to see which one works the best, when one branch works better than the other, a simple merge can add that feature into the main code.</p>
+<h4 id="explain-what-is-github-and-its-role-in-this-project.">Explain what is GitHub, and its role in this project.</h4>
+<div class="figure">
+<img src="../../images/github-logo.png" alt="markdownLogo" />
+<p class="caption">markdownLogo</p>
+</div>
+<p>Github is a website useful for hosting git. They also make a GUI for interacting with the git commands. Github can be used to store repositories that use git and allow other people to interact with code repositories.</p>
+<p>This is a main idea behind open source. People can host programs on Github that they work on and other people can collaborate and contribute to make the project more complete. All of the repositories are interacted with through get. Some common commands for interacting with Github are <code>push</code> and <code>pull</code></p>
+<h4 id="explain-what-is-pandoc-and-comment-on-its-usefulness-or-advantages.">Explain what is pandoc and comment on its usefulness (or advantages).</h4>
+<div class="figure">
+<img src="../../images/pandoc-logo.png" alt="markdownLogo" />
+<p class="caption">markdownLogo</p>
+</div>
+<h4 id="explain-what-is-markdown">Explain what is markdown</h4>
+<p>Markdown is a markup language making it useful to create beautiful looking documentation while at the same time not being dragged down by difficult formatting. Markdown lets writers input code and tables with relative ease. Another markdown language is LaTex which can be compiled within markdown. HTML works too</p>
+<p>We write our README files in markdown to explain projects. This documentation is often used for explaining the project and making it clear to the viewer what is going on. * this helps with transparency</p>
+<h4 id="write-a-narrative-about-how-you-worked-our-this-project">Write a narrative about how you worked our this project</h4>
+<p>The steps I took for this project are as follows: 1. Read the directions carefully 2. Created a github repo on my account 3. Pulled from that repo onto my local machine * Realized I pulled with a different account than I normally do. For reference, I normally use rollonbears234, not irish-dancer-berkeley 5. Added the instructor and GSI as collaborators on the project 4. Created the skeleton and all of the files associated with the skeleton 5. Wrote in tall the markdown file with the proper information 6. Used pandocs to convert the files to different forms 7. Worked on the Makefile to replicate what I just did</p>
+<h4 id="what-resources-you-used-to-get-the-job-done.">What resources you used to get the job done.</h4>
+<p>Here are a list of resources used for this project * pandocs * Atom - text editor * iTerm - command line for Git * <a href="https://github.com">github</a> * Google - for research on certain tools like pandocs and markdown syntax</p>
+<h4 id="what-were-the-easy-parts">What were the “easy” parts?</h4>
+<p>Setting up the skeleton and organizing github</p>
+<h4 id="what-were-the-challenging-parts">What were the challenging parts?</h4>
+<p>Making sure everything fits together in a nice way. Organizing all of the files together and determining what to put in each presented the biggest challenge.</p>
+<h4 id="what-things-you-were-stuck-with">What things you were stuck with?</h4>
+<p>I was already pretty familiar with all the tools and did not have to relearn anything except how to use a makefile and I did check the pandocs documentation.</p>
+<h4 id="what-was-the-most-time-consuming-part">What was the most time consuming part?</h4>
+<p>Doing all of the writing. The busy work of actually putting all the information into text form took the longest time.</p>
+<h4 id="did-you-work-with-andor-get-help-from-someone-else">Did you work with and/or get help from someone else?</h4>
+<p>I did this project individually</p>
+<h4 id="how-much-time-did-it-take">How much time did it take?</h4>
+<p>I finished the bulk of it in a day, no more than 5 hours</p>
+<h2 id="conclusion">## Conclusion</h2>
+<h4 id="take-aways">Take aways</h4>
+<ol style="list-style-type: decimal">
+<li>Documentation makes a project easier to understand which helps other reproduce the findings</li>
+<li>Having a structure setup in your mind helps organize the project which helps with productivity</li>
+<li>Knowing these tools can make life a lot simpler for a programmer</li>
+<li>This project helped me solidify my understanding of the tools presented in the project as well as emphasize their importance in a workflow</li>
+</ol>
+<div class="figure">
+<img src="../../images/stat159-logo.png" alt="markdownLogo" />
+<p class="caption">markdownLogo</p>
+</div>
