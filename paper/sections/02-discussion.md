@@ -20,6 +20,8 @@ Some useful properties of git are the ability to backtrack to older versions (ch
 
 Also, branches are helpful. When coding, two different tracks can be taken to see which one works the best, when one branch works better than the other, a simple merge can add that feature into the main code.
 
+Github also allows sharing with others and is a tool that allows people to work on different parts of the code and merge them together later into a single sytem. 
+
 #### Explain what is GitHub, and its role in this project.
 
 ![githubLogo](https://raw.githubusercontent.com/rollonbears234/stats159_fall2016-project1/master/images/github-logo.png)
@@ -33,7 +35,7 @@ Some common commands for interacting with Github are `push` and `pull`
 #### Explain what is pandoc and comment on its usefulness (or advantages).
 ![pandocLogo](https://raw.githubusercontent.com/rollonbears234/stats159_fall2016-project1/master/images/pandoc-logo.png)
 
-Pandoc is a tool for markup languages. It helps convert from one format to another. In the case of this class, we have converted from markdown to html. This is useful because internet browsers support mainly html and being able to view markdown in html is useful because markdown is easier to write, but html may be more practice. Pandoc allows users to convert from the two so that the user gets the most utility out of each language. 
+Pandoc is a tool for markup languages. It helps convert from one format to another. In the case of this class, we have converted from markdown to html. This is useful because internet browsers support mainly html and being able to view markdown in html is useful because markdown is easier to write, but html may be more practice. Pandoc allows users to convert from the two so that the user gets the most utility out of each language.
 
 
 #### Explain what is markdown
