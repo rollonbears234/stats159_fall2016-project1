@@ -1,5 +1,5 @@
 # stats159_fall2016-project1
-Stat 159, Fall 2016, Professor Sanchez, project 1
+Stat 159, Fall 2016, Professor Sanchez, Project 1
 
 ![projLogo](https://raw.githubusercontent.com/rollonbears234/stats159_fall2016-project1/master/images/stat159-logo.png)
 
